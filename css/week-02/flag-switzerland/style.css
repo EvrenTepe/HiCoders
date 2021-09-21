@@ -1,0 +1,33 @@
+#contanier-main{
+    position: relative;
+}
+
+#flag{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin: 50px auto;
+    transform: perspective(110px) rotateY(3deg);
+    border-style: solid solid solid solid;
+    border-width: 0px 0px 0px 8px;
+    box-shadow: 0 0 6px 4px black;
+}
+
+#contanier-flag{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin: 100px 100px;
+    transform: perspective(100px) rotateY(3deg);
+}
+
+.box{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#box-1, #box-3, #box-7, #box-9{
+    visibility: hidden;
+}
