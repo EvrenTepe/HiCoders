@@ -1,0 +1,98 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff2cc;
+}
+
+/* Uc seklin tasiyici div'lerinin ortak CSS ozellikleri */
+.container {
+  height: 300px;
+  width: 400px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Birinci seklin tasiyici div'i */
+.container-1 {
+  background-color: #62306d;
+}
+
+/* Birinci seklin ilk ve son kisimlari */
+.shape-1-a {
+  width: 100px;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid #f7ec7d;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+/* Birinci seklin orta (ikinci) kismi */
+.shape-1-b {
+  width: 100px;
+  border-top: 100px solid #f7ec7d;
+  border-bottom: 100px solid transparent;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+/* Ikinci seklin tasiyici div'i */
+.container-2 {
+  background-color: #e3516e;
+}
+
+/* Ikinci sekil */
+.shape-2 {
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-top: 100px solid #fade8b;
+  border-left: 100px solid #51b5a9;
+  border-bottom: 100px solid #f7f3d7;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  transform: rotate(45deg);
+}
+
+/* Ucuncu seklin tasiyici div'i */
+.container-3 {
+  background-color: #191210;
+}
+
+/* Ucuncu seklin kisimlarinin ortak CSS ozellikleri */
+.shape-3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    transform: rotate(45deg);
+}
+
+/* Ucuncu seklin birinci kismi */
+.shape-3-a {
+  border-right: 20px solid #eca03d;
+  border-top: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid #eca03d;
+  
+}
+
+/* Ucuncu seklin orta kismi */
+.shape-3-b {
+  background-color: #84271c;
+  border: 20px solid #191210;
+  box-shadow: 0px 0px 0px 20px #eca03d;
+}
+
+/* Ucuncu seklin son kismi */
+.shape-3-c {
+  border-right: 20px solid transparent;
+  border-top: 20px solid #eca03d;
+  border-left: 20px solid #eca03d;
+  border-bottom: 20px solid transparent;
+}
